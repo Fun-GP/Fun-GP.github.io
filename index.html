@@ -1,93 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Fun GP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun GP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-
 <body>
-  <header>
-    <div class="company-logo">Fun GP</div>
-    <nav class="navbar">
-      <ul class="nav-items">
-        <li class="nav-item"><a href="#Home" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
-        <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="menu-toggle">
-      <i class="bx bx-menu"></i>
-      <i class="bx bx-x"></i>
-    </div>
-  </header>
-  <main>
-    <!-- HOME SECTION -->
-    <section class="container section-1" style="background-image: url('images/juego2.png');">
-      <div class="slogan">
-        <h1 class="company-title">Bio-Agentes: La Última Esperanza</h1>
-        <h2 class="company-slogan">
-          Únete a la batalla por la supervivencia en un mundo posapocalíptico. Eres la última esperanza de la humanidad contra las Bestias mutantes.
-    </section>
-    <!-- faltante -->
-    <section>
-     <div id="#Home" class="column">
-      <h2 class="section-title">Descubre Bio-Agentes: La Última Esperanza</h2>
-      <p>
-        Debido a las constantes guerras, la humanidad casi fue extinguida de la existencia. Dejando en unas condiciones 
-        inhabitables toda la atmosfera de la tierra. En sus ultimas fuerzas lo que quedaba de la humanidad creo a los Bio-Agentes, organismos capaces de sobrevivir a la toxica atmosfera de la Tierra.
-      </p>
-      <p>
-        El objetivo del juego es purificar las zonas derrotando a unas Bestias mutantes categorizadas como 
-        "Primordiales", las cuales son las que reparten toxinas a la atmosfera, afectando a toda la flora y fauna, otorgándoles mas peones en su ejércitos mutantes.
-      </p>
-      <img src="images/juego.png" alt="Descripción de la imagen">
-     </div>
-    </section>
-    <!-- About us-->
 
 
-    <!-- SUBSCRIBE SECTION-->
-    <section class="container section-5">
-      <h2 class="subscribe-input-label">Wild Hazzard</h2>
-      <div class="subscribe-container">
-        <input type="text" id="email-subscribe" placeholder="Email address...">
-        <input type="submit" value="SUBSCRIBE">
-      </div>
+    <header>
+        <div class="container">
+            <p class="logo">Fun GP</p>
+            <div class="menu-toggle">
+                <div class="bx bx-menu"></div>
+                <div class="bx bx-x"></div>
+            </div>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about-us">About us</a>
+                <a href="#Contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    
+
+    <section id="hero">
+        <h1>Bio-Agentes<br>La Última Esperanza</h1>
+        
     </section>
-  </main>
-  <footer>
+
+    <section id="home">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2>Descubre Bio-Agentes: <span class="color-acento">La Última Esperanza</span></h2>
+                <p>Due to constant wars, mankind was almost wiped out from existence. The entire atmosphere of the Earth was left in uninhabitable conditions. In their last effort, what was left of humanity created the Bio-Agents, organisms capable of surviving Earth's toxic atmosphere.</p>
+                    <p> The objective of the game is to purify the zones by defeating mutant Beasts categorized as "Primordial", which are the ones that deliver toxins to the atmosphere, affecting all the flora and fauna, giving them more pawns in their mutant armies.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="price container">
+        <span>Rango de precios</span>
+        <h2>Lista de precios</h2>
+        <div class="price-content">
+            <div class="price-1">
+                <p class="pack">Starter Pack</p>
+                <span>"Rookie"</span>
+                <h3>$4.99 USD </h3>
+                <p>Per month</p>
+                <ul>
+                    <li>In-game currency (1000 units)/li>
+                    <li>Exclusive item for newbies</li>
+                    <li>Initial experience bonus (XP)</li>
+                </ul>
+            </div>
+
+            <div class="price-1 bg-pack">
+                <p class="pack">Deluxe Pack</p>
+                <span class="pack-center">"Collector"/span>
+                <h3>$49.99 USD</h3>
+                <p>Per month</p>
+                <ul>
+                    <li>In-game currency (10,000 units)</li>
+                    <li>Exclusive legendary equipment</li>
+                    <li>Access to premium game zones</li>
+                    <li>Exclusive collectible perks</li>
+                </ul>
+            </div>
+            <div class="price-1">
+                <p class="pack">Monthly Subscription</p>
+                <span>"VIP"</span>
+                <h3>$4.99 USD</h3>
+                <p>Per month</p>
+                <ul>
+                    <li>In-game currency (500 units per day)</li>
+                    <li>XP boosters and daily resources</li>
+                    <li>Exclusive access to events and challenges</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="programas">
+                <div class="carta">
+                    <h3>Proyect Manager</h3>
+                    <p>Anett Lara</p>
+                    <p>leads the project management and makes sure that the team follows agile methodologies.</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>Front-end Developer</h3>
+                    <p>Ana Karen Vazquez Morales</p>
+                    <p> Focuses on the implementation of visual elements and the optimization of the interface for different devices.</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>Back-end Developer</h3>
+                    <p>Daniel Alejandro Rodriguez Lopez </p>
+                       <p>He is in charge of the implementation and management of business logic, interaction with databases and the creation of web services.</p>
+                    <button>+ Info</button>
+                </div>  
+                <div class="carta">
+                    <h3>Full-Stack Developer</h3>
+                    <p>David Pesiña Quiñones</p>
+                    <p>Designs, develops and implements efficient and secure services that support application functionality.</p>
+                    <button>+ Info</button>
+                </div>  
+                <div class="carta">
+                    <h3>Full-Stack Developer</h3>
+                    <p>Jesus Santiago Alivez Enemegio</p>
+                    <p>Leads the implementation and optimization of the business logic and data management behind our mobile applications. </p>
+                    <button>+ Info</button>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    
+
+<!-- HTML -->
+<section id="final">
+    <h2>Join the battle for survival in a post-apocalyptic world.<br> You are humanity's last hope against the mutant Beasts.</h2>
+    <button>Free download</button>
+</section>
+<footer>
     <div class="container top-footer">
-      <!-- footer item 1 -->
-      <div id="Contact" class="footer-item"style="max-width: 300px;">
-        <h2 class="footer-title">Terms</h2>
-        <div class="footer-items">
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna euismod, imperdiet urna at, vehicula lectus. Vestibulum nec bibendum libero. In sit amet turpis nec ligula accumsan luctus. Ut dapibus, magna at ultricies consectetur, ex metus fringilla magna, sit amet dignissim dolor felis id arcu. Nullam eu sollicitudin velit. </h3>
+        <!-- footer item 1 -->
+        <div id="Contact" class="footer-item">
+            <h2 class="footer-title">Terms</h2>
+            <div class="footer-items">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna euismod, imperdiet urna at, vehicula
+                    lectus. Vestibulum nec bibendum libero. In sit amet turpis nec ligula accumsan luctus. Ut dapibus, magna
+                    at ultricies consectetur, ex metus fringilla magna, sit amet dignissim dolor felis id arcu. Nullam eu
+                    sollicitudin velit. </h3>
+            </div>
         </div>
-      </div>
-      <!-- footer item 2 -->
-      <div class="footer-item">
-        <h2 class="footer-title">Legal</h2>
-        <div class="footer-items" style="max-width: 300px;">
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna euismod, imperdiet urna at, vehicula lectus. Vestibulum nec bibendum libero. In sit amet turpis nec ligula accumsan luctus. Ut dapibus, magna at ultricies consectetur, ex metus fringilla magna, sit amet dignissim dolor felis id arcu. Nullam eu sollicitudin velit. </h3>
-        </div>
-      </div>
+        <!-- footer item 2 -->
         <div class="footer-item">
-          <h2 class="footer-title">Contacto</h2>
-          <div class="footer-items" style="max-width: 300px;">
-            <h3>Número Telefónico: +1 (555) 123-4567</h3>
-            <h3>Email: contacto@example.com</h3>
-            <h3>Nombre: Lorem ipsu</h3>
-          </div>
+            <h2 class="footer-title">Legal</h2>
+            <div class="footer-items">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna euismod, imperdiet urna at, vehicula
+                    lectus. Vestibulum nec bibendum libero. In sit amet turpis nec ligula accumsan luctus. Ut dapibus, magna
+                    at ultricies consectetur, ex metus fringilla magna, sit amet dignissim dolor felis id arcu. Nullam eu
+                    sollicitudin velit. </h3>
+            </div>
         </div>
-      </div>
+        <div class="footer-item">
+            <h2 class="footer-title">Contacto</h2>
+            <div class="footer-items">
+                <h3>Número Telefónico: +52 8132 3869 80</h3>
+                <h3>Email: DanielGenoo@hotmail.com</h3>
+                <h3>Nombre: Daniel Alejandro Rodriguez Lopez</h3>
+            </div>
+        </div>
     </div>
     <div class="container end-footer">
-      <div class="copyright">copyright © 2023 - Present • <b>Wild Hazzard</b></div>
+        <div class="copyright">copyright © 2023 - Present • <b>Wild Hazzard</b></div>
     </div>
-  </footer>
-  <script src="script.js"></script>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>

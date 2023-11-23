@@ -1,27 +1,26 @@
-'use strict'
-
-const menuToggle = document.querySelector('.menu-toggle');
-const bxMenu = document.querySelector('.bx-menu');
-const bxX = document.querySelector('.bx-x');
-
-const navBar = document.querySelector('.navbar');
-
-// --- open menu ---
-
-bxMenu.addEventListener('click', (e)=> {
-    if(e.target.classList.contains('bx-menu')){
-        navBar.classList.add('show-navbar');
-        bxMenu.classList.add('hide-bx');
-        bxX.classList.add('show-bx');
-    }
-})
-
-// --- close menu ---
-
-bxX.addEventListener('click', (e)=> {
-    if(e.target.classList.contains('bx-x')){
-        navBar.classList.remove('show-navbar');
-        bxMenu.classList.remove('hide-bx');
-        bxX.classList.remove('show-bx');
-    }
-})
+document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuToggle = document.querySelector('.menu-toggle');
+        const bxMenu = document.querySelector('.bx-menu');
+        const bxX = document.querySelector('.bx-x');
+        const navBar = document.querySelector('.navbar');
+    
+        // Toggle menu for mobile view
+        menuToggle.addEventListener('click', () => {
+            navBar.classList.toggle('show-navbar');
+            bxMenu.classList.toggle('hide-bx');
+            bxX.classList.toggle('show-bx');
+        });
+    
+        // Adjust navbar visibility on scroll
+        window.addEventListener('scroll', () => {
+            const scrollPosition = window.scrollY;
+    
+            if (scrollPosition > 50) {
+                navBar.style.display = 'block';
+            } else {
+                navBar.style.display = 'none';
+            }
+        });
+    });
+});
