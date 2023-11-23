@@ -101,7 +101,7 @@ header a:hover{
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5)
   )
-  ,url("img/juego2.png");
+  ,url("images/juego2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -194,7 +194,7 @@ header a:hover{
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5)
   )
-  ,url("img/back-end.png");
+  ,url("images/Front-end.png");
 
 }
 
@@ -204,7 +204,7 @@ header a:hover{
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5)
   )
-  ,url("img/back-end.png");
+  ,url("images/back-end.png");
 }
 
 .carta:nth-child(3){
@@ -213,7 +213,7 @@ header a:hover{
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5)
   )
-  ,url("img/back-end.png");
+  ,url("images/back-end.png");
 
 }
 
@@ -223,7 +223,7 @@ header a:hover{
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5)
   )
-  ,url("img/back-end.png");
+  ,url("images/back-end.png");
 
 }
 .carta:nth-child(5){
@@ -232,7 +232,7 @@ header a:hover{
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5)
   )
-  ,url("img/back-end.png");
+  ,url("images/back-end.png");
 
 }
 
@@ -250,7 +250,7 @@ header a:hover{
           rgba(0,0,0,0.5),
           rgba(0,0,0,0.5)
       )
-      ,url("img/juego3.png");
+      ,url("images/juego3.png");
       background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -308,7 +308,7 @@ header a:hover{
   }
 
   #home .img-container{
-      background-image: url("img/juego.png");
+      background-image: url("images/juego.png");
       background-size: cover;
       background-position: center center;
       height: 500px;
@@ -351,7 +351,7 @@ header a:hover{
           rgba(0,0,0,0.5),
           rgba(0,0,0,0.5)
       )
-      ,url("img/back-end.png");
+      ,url("images/back-end.png");
 
   }
 
@@ -361,7 +361,7 @@ header a:hover{
           rgba(0,0,0,0.5),
           rgba(0,0,0,0.5)
       )
-      ,url("img/back-end.png");
+      ,url("images/back-end.png");
   }
 
   .carta:nth-child(3){
@@ -370,7 +370,7 @@ header a:hover{
           rgba(0,0,0,0.5),
           rgba(0,0,0,0.5)
       )
-      ,url("img/back-end.png");
+      ,url("images/back-end.png");
 
   }
   .carta:nth-child(4){
@@ -379,7 +379,7 @@ header a:hover{
           rgba(0,0,0,0.5),
           rgba(0,0,0,0.5)
       )
-      ,url("img/back-end.png");
+      ,url("images/back-end.png");
 
   }
 
