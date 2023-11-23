@@ -315,7 +315,13 @@ header a:hover{
       width: 400px; 
   }
 
-
+  @media only screen and (max-width: 600px) {
+    .carta {
+        /* Ajusta los estilos de acuerdo a tus necesidades */
+        width: 100%;
+        padding: 10px;
+    }
+}
   
   #about-us .programas{
       display: flex;
